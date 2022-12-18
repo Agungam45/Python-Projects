@@ -1,3 +1,7 @@
+#This application allows a user to find the reading level of a given text using the Flesch readability test
+#The Flesh Readability test uses a reading ease formula of 206.835 - 1.015 (total words/total sentences) - 84.6(total syllables/total words)
+# I utilize functions to gather total words, total sentences, and total syllables, then pass them into a function to ultimately determine the Flesch reading level.
+
 import ch1text
 
 def count_sentences(text):
